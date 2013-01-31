@@ -1,0 +1,15 @@
+{
+  "name": "claw",
+  "repo": "threepointone/claw",
+  "description": "simple css 3d transforms via js",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "manuelstofer/each": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

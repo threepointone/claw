@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        #xyz{
+            width:100px;
+            height:100px;
+            display: block;
+            background-color:black;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div id="xyz"></div>
+
+    <script src='../build/build.js'></script>
+    <script>
+        var claw = require('claw');
+        claw(document.getElementById('xyz'), {
+            translate: ['10px', '20px']
+        })({
+            scale: 1.2
+        });    
+
+    </script>
+
+</body>
+</html>

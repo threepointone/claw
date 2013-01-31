@@ -1,0 +1,24 @@
+{
+  "name": "claw",
+  "version": "0.0.0",
+  "description": "simple css 3d transforms via js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "3d",
+    "css",
+    "css3",
+    "transform",
+    "translate",
+    "rotate",
+    "skew",
+    "scale",
+    "matrix"
+  ],
+  "author": "Sunil Pai",
+  "license": "BSD",
+  "readmeFilename": "Readme.md"
+}
