@@ -7,9 +7,6 @@ function(obj) {
     return toString.call(obj) == '[object Array]';
 };
 
-function isVal(v) {
-    return v != null;
-}
 
 function extend(obj) {
     each(Array.prototype.slice.call(arguments, 1), function(source) {
@@ -37,9 +34,6 @@ function formatTransform(v) {
     });
     return str;
 }
-
-
-// this is ecretly a constructor, but don't tell anyone
 
 function claw(el, vals) {
     var t = this;
