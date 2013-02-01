@@ -1,7 +1,7 @@
 
 # claw
 
-  simple css 3d transforms via js
+  simple css transforms via js
 
 ## Installation
 
