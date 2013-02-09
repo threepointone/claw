@@ -1,9 +1,13 @@
 (function(name, context, definition) {
-
     if(typeof module != 'undefined' && module.exports) module.exports = definition();
     else if(typeof define == 'function' && define.amd) define(definition);
     else context[name] = definition();
 })('claw', this, function() {
+
+    var nativeForEach = [].forEach,
+        slice = [].slice,
+        has = {}.hasOwnProperty;
+
 
     function each(obj, iterator, context) {
         if(obj == null) return;
