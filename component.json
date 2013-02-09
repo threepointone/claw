@@ -4,8 +4,7 @@
   "description": "simple css 3d transforms via js",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {
-    "manuelstofer/each": "*"
+  "dependencies": {    
   },
   "development": {},
   "license": "MIT",
