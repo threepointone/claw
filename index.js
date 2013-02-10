@@ -45,7 +45,7 @@
 
     var transform = (function() {
         var styles = document.createElement('a').style,
-            props = ['webkitTransform', 'MozTransform', 'OTransform', 'msTransform', 'Transform'],
+            props = ['WebkitTransform', 'MozTransform', 'OTransform', 'msTransform', 'Transform'],
             i;
         for(i = 0; i < props.length; i++) {
             if(props[i] in styles) return props[i];
