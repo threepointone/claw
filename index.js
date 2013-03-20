@@ -63,9 +63,16 @@
     function claw(el, vals) {
         var t = this;
         el.__claw__ = el.__claw__ || {};
-        extend(el.__claw__, vals);
+        el.__clawprev__ = el.__clawprev__ || '';
 
-        el.style[transform] = formatTransform(el.__claw__);
+        extend(el.__claw__, vals);
+        var str = formatTransform(el.__claw__);
+
+        if(el.__clawprev__ !== str){
+            el.style[transform] = str;
+            el.__clawprev__ = str
+                
+        }
 
         // return a curried function for further chaining
         return function(v) {
