@@ -1,11 +1,6 @@
 
-build: components index.js
-	@component build --dev
+build: 
+	browserify -r ./index.js -o build/claw.js -s claw
 
-components: component.json
-	@component install --dev
+.PHONY: build
 
-clean:
-	rm -fr build components template.js
-
-.PHONY: clean

@@ -3,10 +3,6 @@
 
   simple css transforms via js
 
-## Installation
-
-    $ component install threepointone/claw
-
 ## Why?
 
 The problem with css transforms, is that they're all bunched up together into one css property, like so - 

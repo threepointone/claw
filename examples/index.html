@@ -16,11 +16,11 @@
 
     <div id="xyz"></div>
 
-    <script src='../build/build.js'></script>
+    <script src='../build/claw.js'></script>
     <script>
-        var claw = require('claw');
         claw(document.getElementById('xyz'), {
-            translate: ['10px', '20px']
+            translate: ['10px', '20px'],
+            rotate: '30deg'
         })({
             scale: 1.2
         });    
