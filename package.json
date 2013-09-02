@@ -20,5 +20,8 @@
   ],
   "author": "Sunil Pai",
   "license": "BSD",
-  "readmeFilename": "Readme.md"
+  "readmeFilename": "Readme.md",
+  "dependencies": {
+    "fn": "git://github.com/threepointone/fn.git"
+  }
 }
