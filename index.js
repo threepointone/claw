@@ -39,3 +39,5 @@ function claw(el, vals) {
     }
 
 }
+
+claw.formatTransform = formatTransform;
