@@ -4,7 +4,7 @@ module.exports = claw;
 
 var transform = (function() {
     var styles = document.createElement('a').style,
-        props = ['WebkitTransform', 'MozTransform', 'OTransform', 'msTransform', 'Transform'],
+        props = ['WebkitTransform', 'MozTransform', 'OTransform', 'msTransform', 'Transform', 'mozTransform', 'transform'],
         i;
     for (i = 0; i < props.length; i++) {
         if (props[i] in styles) return props[i];
